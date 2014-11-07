@@ -1,0 +1,19 @@
+<config>
+    <modules>
+        <Ianitsky_RootCategory>
+            <version>0.1.0</version>
+        </Ianitsky_RootCategory>
+    </modules>
+    <global>
+        <models>
+            <rootcategory>
+                <class>Ianitsky_RootCategory_Model</class>
+            </rootcategory>
+            <core>
+                <rewrite>
+                    <store_group>Ianitsky_RootCategory_Model_Store_Group</store_group>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+</config>
